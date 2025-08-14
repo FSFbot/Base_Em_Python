@@ -1,0 +1,2 @@
+
+Olá. este é um arquivo de texto. Ele ser como exemplo para nosso exercicio. Python é uma otima ferramenta para manipulação de arquivos.
