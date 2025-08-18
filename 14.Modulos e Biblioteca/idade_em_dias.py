@@ -8,9 +8,8 @@ def calcular_idade_em_dias():
         hoje =  datetime.now()
         
         diferenca = hoje - data_nasc
-        
         print("\n----Resultado-----")
-        print(f"Você nasceu em  {data_nasc_strftime('%d de %B de %Y')}")
+        print(f"Você nasceu em  {data_nasc.strftime('%d de %B de %Y')}")
         print(f"Hoje é {hoje.strftime('%d de %B de %Y')}")
         print(f" Você ja viveu aproxidamente {diferenca.days} dias!")
     except ValueError:
