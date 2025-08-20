@@ -1,14 +1,11 @@
-def par_impar():
-    print("Algoritmo de avalição se um numero é par ou impar")
+def Par_Impar():
     try:
-        num = int(input("Informe um numero e ele sera avaliado: "))
+        num = int(input("Escolha um numero para podermos analisar: "))
         if num % 2 == 0:
-            print(f"{num} é um par")
+            print(f"O numero {num} é par")
         else:
-            print(f"{num} é impar")
+            print(f"numero {num} não é par logo é impar")
     except ValueError:
-        print("Apenas numeros são aceitos aqui")
-if __name__ == "__main__":
-    par_impar()
+        print("Apenas numeros são aceitos")
     
     
